@@ -2,6 +2,7 @@
 #include "Listaenlazada.h"
 using namespace std;
 int main(){
+	//con strings
     Listaenlazada<string> a;
     a.Anadir("hola");
     a.Anadir("como");
@@ -13,6 +14,8 @@ int main(){
     for (;i!=a.end();++i){
         cout<<i<<" ";
     }
+    cout<<endl;
+    //con enteros
     Listaenlazada<int> b;
     b.Anadir(6);
     b.Anadir(5);
